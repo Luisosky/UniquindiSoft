@@ -1,15 +1,26 @@
+
 package Controlador;
+
+import java.util.Map;
 
 public class Cotizante extends EntidadCSV {
     public Cotizante() {
-        campos.put("nombre", "");
-        campos.put("apellido", "");
-        campos.put("cedula", "");
-        campos.put("telefono", "");
-        campos.put("correo", "");
-        campos.put("direccion", "");
-        campos.put("fechaNacimiento", "");
-        campos.put("genero", "");
-        campos.put("embargo", "");
+        super();
+    }
+
+    public String getNombre() {
+        return getCampos().get("nombre");
+    }
+
+    public String getApellido() {
+        return getCampos().get("apellido");
+    }
+
+    public int getEdad() {
+        return Integer.parseInt(getCampos().get("edad"));
+    }
+
+    public double getSalario() {
+        return Double.parseDouble(getCampos().get("salario"));
     }
 }
