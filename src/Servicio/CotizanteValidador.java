@@ -1,6 +1,6 @@
 package Servicio;
-import Controlador.Contributor;
-import Controlador.Cotizante;
+import Modelo.Contributor;
+import Modelo.Cotizante;
 
 import java.util.List;
 import java.util.Objects;

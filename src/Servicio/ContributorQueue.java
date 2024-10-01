@@ -1,5 +1,5 @@
 package Servicio;
-import Controlador.Contributor;
+import Modelo.Contributor;
 import java.util.PriorityQueue;
 
 public class ContributorQueue {

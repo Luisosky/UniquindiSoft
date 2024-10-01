@@ -1,7 +1,5 @@
 
-package Controlador;
-
-import java.util.Map;
+package Modelo;
 
 public class Cotizante extends EntidadCSV {
     public Cotizante() {
