@@ -1,6 +1,6 @@
 package Servicio;
 
-import Controlador.Contributor;
+import Modelo.Contributor;
 
 public class ListaNegra {
     private LinkedListPropio<Contributor> listaNegra = new LinkedListPropio<>();

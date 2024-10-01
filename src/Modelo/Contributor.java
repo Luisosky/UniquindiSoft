@@ -1,4 +1,4 @@
-package Controlador;
+package Modelo;
 
 public class Contributor implements Comparable<Contributor> {
     private String nombre;

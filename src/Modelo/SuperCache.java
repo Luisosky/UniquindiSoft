@@ -1,4 +1,4 @@
-package Controlador;
+package Modelo;
 
 import java.util.HashMap;
 import java.util.Map;
